@@ -1,0 +1,43 @@
+<!Doctype html>
+<html lang="fr>
+<head>
+    <meta charset="utf-8">
+    <title>Ma voiture</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/bootstrap.min.css')}}">
+</head>
+    <h1 class="text-info text-center">Liste Voiture</h1>
+    <table class="table">
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">Id</th>
+          <th scope="col">Marque</th>
+          <th scope="col">Catégorie</th>
+          <th scope="col">Prix ($)</th>
+          <th scope="col">Modifier</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Clio</td>
+          <td>Rénol</td>
+          <td>3510</td>
+          <td scope="col"><a class="btn btn-info btn-sm" href="#">Modifier</a></td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Nissan</td>
+          <td>4x4</td>
+          <td>7000</td>
+          <td scope="col"><a class="btn btn-info btn-sm" href="#">Modifier</a></td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Tesla</td>
+          <td>Beriline</td>
+          <td>6700</td>
+          <td scope="col"><a class="btn btn-info btn-sm" href="#">Modifier</a></td>
+        </tr>
+      </tbody>
+    </table>
+</html>

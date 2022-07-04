@@ -1,0 +1,25 @@
+ipv6= 128
+ipv4= 32
+
+
+_______________________________________
+couche liaison de données:
+matériels physique: switch(commutateur--> commutation) --> brancher les ordis sur les ports. Nom de données dans la couche de liaison: trame
+Frame Control Sequence (FCS) --> est-ce que le trame est intact? (Contrôle d'informations)
+
+adresse mac source/destinataire
+
+--> Sous couche de liaison de données (LLC-Logical Link Control et MAC)
+
+Communication en mode semi-duplex, duplex integral (vitesse?)
+
+
+
+____________________________________________
+Couche réseau: 
+opérations: adressage des périphériques finaux, encapsulation, routage, desencapsulation
+
+show ip route (afficher le table de routage)
+
+
+ipconfig /all
